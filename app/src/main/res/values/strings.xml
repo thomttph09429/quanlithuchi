@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ass1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Quản Lí Thu Chi</string>
+    <string name="nav_header_subtitle">Trương Ngọc Thơm</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Khoản thu</string>
+    <string name="menu_gallery">Khoản chi</string>
+    <string name="menu_slideshow">Thống kê</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

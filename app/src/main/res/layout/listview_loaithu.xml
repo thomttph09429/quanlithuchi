@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    >
+
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_weight="9"
+        android:id="@+id/tvloaithu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tên loại thu" />
+
+
+
+        <ImageView
+            android:id="@+id/imgupdate"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_border_color_black_24dp" />
+
+
+        <ImageView
+            android:id="@+id/imvdelete"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete_forever_black_24dp" />
+</LinearLayout>

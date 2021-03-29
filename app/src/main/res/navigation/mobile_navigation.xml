@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.poly.ass1.ui.thu.thu_Fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_1">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.poly.ass1.ui.thu.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.poly.ass1.ui.chi.chi_Fragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_2" />
+
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.poly.ass1.ui.thong_ke.thongke_Fragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_3" />
+    <fragment
+        android:id="@+id/nav_gioithieu"
+        android:name="com.poly.ass1.Fragment.Fragment_gioithiu"
+        android:label="giới thiệu"
+        tools:layout="@layout/fragment_gioithiu" />
+    <fragment
+        android:id="@+id/nav_thoat"
+        android:name="com.poly.ass1.Fragment.Fragment_thoat"
+        android:label="thoát"
+        tools:layout="@layout/fragment_thoat" />
+    <fragment
+        android:id="@+id/nav_them"
+        android:name="com.poly.ass1.Fragment.Fragment_them"
+        android:label="thêm"
+        tools:layout="@layout/fragment_thoat" />
+</navigation>
